@@ -1,5 +1,5 @@
 
-import React, { useEffect, Children, useState } from "react";
+import React, { useEffect, useState } from "react";
 import { CommentsItem } from "./CommentsItem";
 import { getStories } from "../../api";
 import PuffLoader from "react-spinners/PuffLoader";
@@ -20,7 +20,7 @@ export function CommentsList({commId}) {
 
   setLoading(false);
   setComments([]);
-  commId.map((id)=>{
+  commId.forEach((id)=>{
     getStories(id).then((data)=>{
       setComments((prev)=>{return [data,...prev]});
       setLoading(true);
@@ -32,7 +32,7 @@ export function CommentsList({commId}) {
     setCount(0);
     countComm(commId);
     
-    commId.map((id)=>{
+    commId.forEach((id)=>{
       getStories(id).then((data)=>{
         setComments((prev)=>{return [data,...prev]});
         setLoading(true);
@@ -43,7 +43,7 @@ export function CommentsList({commId}) {
   
   //@ quantity of comments
   function countComm(id) {
-    id.map((comm) => {
+    id.forEach((comm) => {
       getStories(comm).then((data) => {
         if (!data.deleted && !data.dead) {
           setCount((prev)=>{return prev + 1});

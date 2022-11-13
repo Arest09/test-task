@@ -16,7 +16,7 @@ export function NewsPage() {
   const { goBack } = useHistory();
 
   useState(() => {
-    console.log(news)
+  
     dispatcher(fetchStories(id));
   }, []);
  

@@ -11,21 +11,18 @@ import  "../../icons/reload/reload.scss"
 
 export function MainPage() {
 
-  const [scrollPosition, setScrollPosition] = useState(0);
+  
 
   const dispatch = useDispatch();
   const newsId = useSelector(state => state.storiesId.storiesId);
   const {status,error} = useSelector(state => state.storiesId);
 
   
-  const updatedTime = 60 * 1000;
+  const updatedTime = 120 * 1000;
   
 //@ fetching id
   useEffect(()=>{
     dispatch(fetchStoriesId())
-
-    setScrollPosition(window.pageYOffset)
-      console.log(scrollPosition)
   },[])
 
   
