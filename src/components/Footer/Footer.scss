@@ -1,0 +1,16 @@
+@import "../../scss/vars";
+
+.footer {
+    padding: 15px 0 15px;
+    background-color: $gray;
+
+    &__item {
+        color: $main-color;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+
+

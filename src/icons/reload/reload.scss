@@ -1,0 +1,10 @@
+.reload {
+  cursor: pointer;
+  max-width: fit-content;
+  &:hover {
+    path {
+      transition: fill 0.5s;
+      fill: red;
+    }
+  }
+}

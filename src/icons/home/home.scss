@@ -1,0 +1,18 @@
+.home {
+    cursor: pointer;
+    max-width: fit-content;
+    &:hover {
+      path {
+        transition: fill 0.5s;
+        fill: rgb(127 29 29) ;
+      }
+    }
+}
+
+
+
+@media(max-width:650px){
+  .home{
+    max-width: 25px;
+  }
+}

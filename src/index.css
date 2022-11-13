@@ -1,13 +1,68 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Roboto-Regular';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h1,h2,h3{
+  font-weight: normal;
+}
+
+#root{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+/* Poppins */
+@font-face {
+  font-family: 'Poppins-Bold';
+  font-weight: 800;
+  font-style: normal;
+  
+  src: local('Poppins-Bold'), url(./fonts/Poppins-Bold.woff) format('woff'),url(./fonts/Poppins-Bold.woff2) format('woff2');
+  font-family: 'Poppins-Bold';
+
+}
+
+@font-face {
+  font-family: 'Poppins-Medium';
+  font-weight: 500;
+  font-style: normal;
+
+  src: local('Poppins-Medium'), url(./fonts/Poppins-Medium.woff) format('woff'),url(./fonts/Poppins-Medium.woff2) format('woff2');
+  font-family: 'Poppins-Medium';
+  
+}
+
+@font-face {
+  font-family: 'Poppins-Regular';
+  font-weight: 400;
+  font-style: normal;
+
+  src: local('Poppins-Regular'), url(./fonts/Poppins-Regular.woff) format('woff'),url(./fonts/Poppins-Regular.woff2) format('woff2');
+ 
+}
+
+/* Roboto */
+
+@font-face {
+  font-family: 'Roboto-Regular';
+  font-weight: 400;
+  font-style: normal;
+
+  src: local('Roboto-Regular'), url(./fonts/Roboto-Regular.woff) format('woff'),url(./fonts/Roboto-Regular.woff2) format('woff2');
+
+}
+
+@font-face {
+  font-family: 'Roboto-Bold';
+  font-weight: 800;
+  font-style: normal;
+  
+  src: local('Roboto-Bold'), url(./fonts/Roboto-Bold.woff) format('woff'),url(./fonts/Roboto-Bold.woff2) format('woff2');
+
 }

@@ -1,0 +1,8 @@
+.github {
+  cursor: pointer;
+  max-width: fit-content;
+  transition: transform 0.5s;
+  &:hover {
+    transform: rotate(360deg);
+  }
+}

@@ -1,0 +1,22 @@
+$gray:rgb(209 213 219);
+$title-color:#191919;
+$main-color: rgb(41 37 36);
+$bg-color: rgb(30 41 59);
+$newsTitle-color:rgb(199 210 254);
+$text-color:rgb(228 228 231);
+$date-color:rgb(253 230 138);
+
+%title {
+    color: $newsTitle-color;
+    font-size: 17px;
+    font-family: 'Poppins-Medium';
+    font-weight: 800;
+}
+
+%animation{
+    transition:transform 0.5s,box-shadow 0.5s;
+    &:hover{
+        box-shadow: 12px 5px 9px 3px rgba(0, 0, 0, 0.625);
+        transform: translate(2%);
+    }
+}
