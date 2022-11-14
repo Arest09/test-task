@@ -18,7 +18,7 @@ export function MainPage() {
   const {status,error} = useSelector(state => state.storiesId);
 
   
-  const updatedTime = 120 * 1000;
+  const updatedTime = 60 * 1000;
   
 //@ fetching id
   useEffect(()=>{
