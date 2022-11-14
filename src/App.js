@@ -17,11 +17,11 @@ function App() {
   return (
     <React.Fragment>
       <Header />
-        <BrowserRouter>
+        <BrowserRouter basename="test-task">
           <Switch>
             <Route exact path="/" component={MainPage} />
             <Route  path="/news/:id" component={NewsPage} />
-            <Route component={NotFound} />
+            <Route path='*' component={NotFound} />
           </Switch>
         </BrowserRouter>
       <Footer />
