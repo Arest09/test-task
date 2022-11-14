@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/test-task/static/css/main.408e3658.css",
+    "main.js": "/test-task/static/js/main.3775005e.js",
+    "static/media/Roboto-Bold.woff": "/test-task/static/media/Roboto-Bold.75a1a5b5582b236e0fe3.woff",
+    "static/media/Roboto-Regular.woff": "/test-task/static/media/Roboto-Regular.774f99460b8c31560a3c.woff",
+    "static/media/Poppins-Regular.woff": "/test-task/static/media/Poppins-Regular.ab6122bd28174ddf9eeb.woff",
+    "static/media/Poppins-Medium.woff": "/test-task/static/media/Poppins-Medium.c162ccbbda8bd6839b3a.woff",
+    "static/media/Poppins-Bold.woff": "/test-task/static/media/Poppins-Bold.d1c550e43ca6e696c787.woff",
+    "static/media/Roboto-Bold.woff2": "/test-task/static/media/Roboto-Bold.002079d85a6f27587d17.woff2",
+    "static/media/Roboto-Regular.woff2": "/test-task/static/media/Roboto-Regular.9429985be4f46ec8fcfc.woff2",
+    "static/media/404.jpg": "/test-task/static/media/404.f7c56e2e2a46d447dc29.jpg",
+    "static/media/Poppins-Regular.woff2": "/test-task/static/media/Poppins-Regular.9641d5d087bc9e626d4c.woff2",
+    "static/media/Poppins-Bold.woff2": "/test-task/static/media/Poppins-Bold.02d30d49f061087e6275.woff2",
+    "static/media/Poppins-Medium.woff2": "/test-task/static/media/Poppins-Medium.13c404f85f4b8532e4e9.woff2",
+    "static/media/github.svg": "/test-task/static/media/github.ca1eb049e4d983a00d6eb72cd19a14f7.svg",
+    "static/media/home.svg": "/test-task/static/media/home.3e67eb2a95fce3b4ce7f384fb637db09.svg",
+    "static/media/reload.svg": "/test-task/static/media/reload.e6e6f7fa511cad116db0f111c4157ed8.svg",
+    "static/media/star.svg": "/test-task/static/media/star.30de49904d6fa6dbed262ed2bfc3b13c.svg",
+    "index.html": "/test-task/index.html",
+    "static/media/down.svg": "/test-task/static/media/down.6f7e6929b52e55791ccbbddb1d02afbb.svg",
+    "static/media/up.svg": "/test-task/static/media/up.86ced170f1f3d5d3e49cfbd635494cd9.svg",
+    "main.408e3658.css.map": "/test-task/static/css/main.408e3658.css.map",
+    "main.3775005e.js.map": "/test-task/static/js/main.3775005e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.408e3658.css",
+    "static/js/main.3775005e.js"
+  ]
+}
