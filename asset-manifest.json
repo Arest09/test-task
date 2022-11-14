@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/test-task/static/css/main.408e3658.css",
-    "main.js": "/test-task/static/js/main.3775005e.js",
+    "main.js": "/test-task/static/js/main.e5fd8072.js",
     "static/media/Roboto-Bold.woff": "/test-task/static/media/Roboto-Bold.75a1a5b5582b236e0fe3.woff",
     "static/media/Roboto-Regular.woff": "/test-task/static/media/Roboto-Regular.774f99460b8c31560a3c.woff",
     "static/media/Poppins-Regular.woff": "/test-task/static/media/Poppins-Regular.ab6122bd28174ddf9eeb.woff",
@@ -21,10 +21,10 @@
     "static/media/down.svg": "/test-task/static/media/down.6f7e6929b52e55791ccbbddb1d02afbb.svg",
     "static/media/up.svg": "/test-task/static/media/up.86ced170f1f3d5d3e49cfbd635494cd9.svg",
     "main.408e3658.css.map": "/test-task/static/css/main.408e3658.css.map",
-    "main.3775005e.js.map": "/test-task/static/js/main.3775005e.js.map"
+    "main.e5fd8072.js.map": "/test-task/static/js/main.e5fd8072.js.map"
   },
   "entrypoints": [
     "static/css/main.408e3658.css",
-    "static/js/main.3775005e.js"
+    "static/js/main.e5fd8072.js"
   ]
 }
